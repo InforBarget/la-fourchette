@@ -1,0 +1,196 @@
+* {
+	margin:0; 
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background: url(img/back-cover.jpg) no-repeat top center;
+	color:#333;
+	font-size: 100%;
+	line-height: 150%;
+}
+
+
+.wrapper {
+	width:990px;
+	margin:0 auto;	
+	background-color:hsla(358,28%,95%,0.85);
+	padding-top: 30px;
+}
+
+
+/*typographie et centrage du texte*/
+
+
+h2 {
+	font-size: 1.6em;
+	margin:0 0 1em 0;
+}
+h3 {
+	font-size: 1.3em;
+	margin:1em 0;
+}
+.center-txt {
+	text-align: center;
+}
+
+/* liens*/
+
+a {
+	color: #f00;
+	text-decoration: none;
+}
+a:hover {
+	color: #ccc;
+}
+/*roll-over sur les images*/
+.roll-over-img:hover {
+	opacity: 0.5;
+}
+
+
+/*********************menu****************************************/
+.nav {
+	margin-top: 20px;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+}
+
+.nav li {
+	border-right: 1px solid #000;
+	display: inline;
+	list-style:none;
+}
+
+.nav-link a {
+	color:#000;
+	font-weight: 900;
+	padding:5px 10px;	
+	text-decoration:none;
+	text-align:center;
+	font-size: 1.1em;
+	line-height: 40px;
+
+}
+.nav-link a:hover, .nav-link-active a{
+	color: #d86c0c;
+}	
+/*********************fin menu******/
+
+
+/*slogan*/
+.main-slogan {
+	font: 16px/1.2 Arial;
+	font-weight: 200;
+	text-align: right;
+	font-style: italic;
+	padding:10px 12px 10px;
+}
+/*********************fin slogan******/
+
+/*les colonnnes */
+
+.col {
+	margin:10px 0 0 0;
+	padding:15px;
+}
+.col-main {
+	width:680px;
+	margin-left:15px;
+}
+.col-aside {
+	width:280px;	
+}
+
+/*contenu aside*/
+.col-aside h2 {
+	font-size: 1.4em;
+}
+.col-aside h3 {
+	font-size: 1em;
+}
+.col-aside p {
+	font-size: 0.9em;
+}
+/*fin aside*/
+
+
+
+/*contenu col-main*/
+
+.col-main h2 {
+	margin-bottom: 2px
+}
+.meta {
+	font-size: 0.8em;
+}
+.meta-date {
+	margin-bottom: 2px;
+	font-style: italic;
+}
+.meta-auteur {
+	font-weight:bold;
+}
+
+
+/*vignettes */
+.container-vignettes {
+	margin:30px 0 0 0;
+	padding: 10px 0;
+	border-top: 1px solid #000;
+}
+.container-vignettes h2 {
+	margin-bottom: 10px;
+}
+.vignette {
+	width:200px;
+	margin:0 10px 0px 0;
+}
+.vignette p{
+	text-align: center;
+	line-height: 150%;
+}
+.vignette a{
+	color: #b32;
+}
+
+/*roll-over des vignettes*/
+.vignette:hover a{
+	color: #000;
+}
+
+.vignette:hover {
+	background-color:#ccc;
+}
+/*fin vignettes*/
+
+
+
+/***************** fin main**************/
+
+/*********** debut footer*/
+.main-footer {	
+	text-align:right;
+	padding:20px;
+	font-size:0.8em;
+	border-top:1px solid #000;
+}
+
+/*fin footer*/
+
+/***************** flottement ************************/
+.fl-l {
+	float:left;
+}
+.fl-r {
+	float:right;
+}
+
+.clear {
+	clear:both;
+
+}
+
